@@ -1,1 +1,2 @@
-<app-contacts [parentData]="pName"></app-contacts>
+<app-contacts [parentData]="pName" (childEvent)="message=$event"></app-contacts>
+<h1>Повідомлення з дочірнього компоненту - {{message}}</h1>

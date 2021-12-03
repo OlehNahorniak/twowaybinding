@@ -1,2 +1,5 @@
 <p>contacts works!</p>
 <h2>{{"First contact - " + parentData }}</h2>
+
+<input title="Contact Data" type="text" size="30" #myText/>
+<button (click)="fireEvent(myText.value) ">Send</button>

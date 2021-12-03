@@ -9,5 +9,6 @@ export class AppComponent {
   title = 'twowaybinding';
 
   public pName ="Oleh Nahorniak";
+  public message = "";
 
 }
